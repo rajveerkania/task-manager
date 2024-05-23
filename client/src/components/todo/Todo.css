@@ -1,0 +1,227 @@
+.todo {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+#todomain {
+  display: block;
+}
+
+.add-heading {
+  margin: 10px;
+}
+
+.pomodoro-btn {
+  border: none;
+  outline: none;
+  background-color: rgba(240, 0, 0, 0.87);
+  border-radius: 8px;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.dyn-container {
+  margin-top: 100px;
+}
+
+#pomodoro-div {
+  display: block;
+}
+
+#task-list {
+  display: block;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.icon {
+  font-size: 24px;
+  margin: 0 8px;
+}
+
+.next-icon {
+  font-size: 35px;
+  margin: 0 8px;
+}
+
+.add-task-btn {
+  background: #ffffff;
+  max-width: 360px;
+  margin: 15px auto 50px;
+  padding: 45px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow:
+    0 0 20px 0 rgba(0, 0, 0, 0.2),
+    0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#add-task {
+  display: block;
+}
+
+.form-check {
+  margin: 20px 10px 15px 10px;
+}
+
+.form-check-input:checked {
+  background-color: rgba(240, 0, 0, 0.87);
+  box-shadow: none;
+}
+
+.time-input {
+  margin: 10px;
+}
+
+.add-btn {
+  width: 200px;
+  border: none;
+  outline: none;
+  background-color: rgba(240, 0, 0, 0.87);
+  border-radius: 8px;
+  color: #ffffff !important;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.todo-cards {
+  border: 2px solid #000000;
+  border-radius: 3px;
+}
+
+.todo-cards-pre {
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards-icon {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cards-icon:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+}
+
+.del {
+  color: rgba(240, 0, 0, 0.87);
+}
+
+#timer {
+  display: none;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.timer-controls {
+  margin-top: 5vw;
+}
+
+.circular-progress-bar-container {
+  margin-top: 20px;
+}
+
+.timer-controls button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 4vw;
+  margin: 0 3vw;
+}
+
+.timer-display {
+  font-size: 5vw;
+  margin-top: 5vw;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.timer-controls {
+  margin-top: 5vw;
+}
+
+.timer-controls button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 4vw;
+  margin: 0 3vw;
+}
+
+.timer-display {
+  font-size: 5vw;
+  margin-top: 5vw;
+}
+
+.todo-update {
+  background-color: #f2f2f2;
+  width: 40%;
+  position: absolute;
+  position: fixed;
+  top: 30%;
+  right: 30%;
+  left: 30%;
+  border-radius: 8px;
+  box-shadow:
+    0 0 20px 0 rgba(0, 0, 0, 0.2),
+    0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  display: none;
+}
+
+.update-btn {
+  width: 200px;
+  border: none;
+  outline: none;
+  background-color: rgba(240, 0, 0, 0.87);
+  border-radius: 8px;
+  color: #ffffff !important;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.close-btn:hover {
+  color: red;
+}
+
+@media (max-width: 767px) {
+  .add-task-btn {
+    max-width: 90%;
+    padding: 30px;
+    margin: 10px auto 30px;
+  }
+
+  .todo-update {
+    width: 70%;
+  }
+}
